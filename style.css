@@ -1,0 +1,1645 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.logo img {
+    height: 50px;
+
+}
+
+.logo img:hover {
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #ffffff25;
+    backdrop-filter: blur(15px);
+    box-shadow: 0px 0px 25px #00000034;
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    z-index: 1000;
+    border-bottom: 3px solid #ffffff6e;
+}
+
+.nav-link {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.nav-link a {
+    font-family: "DM Serif Display", serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: #002E5A;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    font-size: 17px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-link a:hover {
+    border-bottom: 5px solid #ffca29;
+    text-shadow: 0px 0px 10px #fff;
+}
+
+
+
+.close,
+.open {
+    height: 30px;
+}
+
+.open-close {
+    display: none;
+    background-color: transparent;
+    border: none;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    width: 300px;
+    height: 40px;
+    background-color: transparent;
+    margin: 0;
+}
+
+.search-box {
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #FF7796;
+}
+
+.search-box input {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+}
+
+.search-it::placeholder {
+    color: #fff;
+    font-family: "DM Serif Display", serif;
+}
+
+
+.search p {
+    color: #ffffff;
+}
+
+.search-icon {
+    filter: drop-shadow(0 0 5px #fff);
+}
+
+
+
+.text {
+    font-family: "DM Serif Display", serif;
+    line-height: 0.9;
+}
+
+.home {
+    font-size: 60px;
+    color: #002E5A;
+}
+
+.home1 {
+    font-size: 100px;
+    color: #002E5A;
+}
+
+.home2 {
+    font-size: 100px;
+    color: #F45C87;
+}
+
+.sub-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.head-sum {
+    font-size: 20px;
+    font-family: "DM Serif Display", serif;
+    color: #002E5A;
+    font-weight: 100;
+}
+
+.button {
+    margin: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    font-family: "DM Serif Display", serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 20px;
+    border-radius: 50px;
+
+}
+
+.btn-a {
+    z-index: 1;
+}
+
+.btn1 {
+    color: white;
+    border: 4px solid #002E5A;
+    background-color: #002E5A;
+    transition: all 0.3s ease;
+
+}
+
+.btn1 ::after {
+    content: " →";
+}
+
+.btn1:hover {
+    box-shadow: 0px 0px 50px #002E5A;
+}
+
+.btn2 {
+    color: #F45C87;
+    border: 4px solid #F45C87;
+    backdrop-filter: blur(15px);
+    background-color: rgba(255, 255, 255, 0.158);
+    transition: all 0.3s ease;
+
+}
+
+.btn2:hover {
+    box-shadow: 0px 0px 50px #F45C87;
+    background-color: #F45C87;
+    color: white;
+}
+
+.btn3 {
+    color: #fff;
+    border: none;
+    background-color: #ffca29;
+    transition: all 0.3s ease;
+
+}
+
+.btn3:hover {
+    box-shadow: 0px 0px 50px #ffca29;
+}
+
+.blue {
+    width: 300px;
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 0%;
+    left: -4%;
+}
+
+.yellow {
+    width: 500px;
+    position: absolute;
+    top: 41%;
+    left: 0%;
+    z-index: 0;
+}
+
+.main-1 {
+    padding-top: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    align-items: start;
+    background-image: -webkit-linear-gradient(200deg,
+            #00000000,
+            #00000000,
+            #00000000,
+            #ffffffc6,
+            #fff,
+            #fff), url(assets/Restaruant\ 3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.main-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wise {
+    width: 200px;
+    position: absolute;
+    top: 103%;
+    right: 5%;
+    z-index: 0;
+}
+
+
+
+
+.leaf {
+    stroke: #002E5A;
+
+}
+
+.chef-hat {
+    color: #002E5A;
+}
+
+.svg-icon {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+
+}
+
+
+
+.suggestion {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(226px, 1fr));
+    gap: 25px;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.sugg {
+    background-color: #ffffff61;
+    backdrop-filter: blur(15px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.245);
+    padding: 5px;
+    transition: all 0.3s ease-out;
+    border: 3px solid #ffffff75;
+
+}
+
+.sugg:hover {
+    transform: scale(1.1);
+}
+
+
+
+.main-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: -webkit-linear-gradient(0deg,
+            #00000000,
+            #00000000,
+            #fff,
+            #fff,
+            #fff), url(assets/Restaruant\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.a {
+    height: 100%;
+    width: 50%;
+}
+
+.b {
+    height: 100%;
+    width: 50%;
+    padding: 80px;
+    z-index: 1;
+
+}
+
+.about {
+    font-family: "DM Serif Display", serif;
+    font-size: 30px;
+    color: #002E5A;
+}
+
+.about1 {
+    font-family: "DM Serif Display", serif;
+    font-size: 60px;
+    color: #002E5A;
+}
+
+.about2 {
+    font-family: "DM Serif Display", serif;
+    font-size: 60px;
+    color: #F45C87;
+}
+
+.about2::before {
+    content: "Just ";
+    color: #002E5A;
+}
+
+.about3 {
+    font-family: "DM Serif Display", serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #002E5A;
+    padding-top: 20px;
+
+}
+
+.about-items {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+}
+
+.items-img {
+    width: 70px;
+}
+
+.items h3 {
+    font-family: "DM Serif Display", serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #002E5A;
+    text-align: center;
+
+}
+
+.items p {
+    font-family: "DM Serif Display", serif;
+    font-size: 18px;
+    color: #002E5A;
+    text-align: center;
+    text-align: center;
+
+}
+
+.main-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.orangeg {
+    width: 200px;
+    position: absolute;
+    right: 3%;
+    top: 190%;
+    animation: orangeg 4s ease-in-out infinite;
+    filter: drop-shadow(0 0 15px #FBC73F);
+
+}
+
+@keyframes orangeg {
+
+    0%,
+    100% {
+        transform: translateY(0) rotate(-10deg);
+    }
+
+    50% {
+        transform: translateY(-20px) rotate(-10deg);
+    }
+}
+
+.grape {
+    width: 200px;
+    position: absolute;
+    right: 15%;
+    top: 210%;
+    animation: grape 3s ease-in-out infinite;
+    filter: drop-shadow(0 0 15px #F86568);
+}
+
+@keyframes grape {
+
+    0%,
+    100% {
+        transform: translateY(0) rotate(10deg);
+    }
+
+    50% {
+        transform: translateY(-20px) rotate(10deg);
+    }
+}
+
+.jelly {
+    width: 220px;
+    position: absolute;
+    left: 5%;
+    top: 205%;
+
+    animation: jelly 4s ease-in-out infinite;
+    filter: drop-shadow(0 0 15px #2AD9FF);
+
+}
+
+@keyframes jelly {
+
+    0%,
+    100% {
+        transform: scale(1)rotate(30deg)
+    }
+
+    50% {
+        transform: scale(1.1)rotate(30deg)
+    }
+}
+
+.menuh {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu-head {
+    color: #002E5A;
+    font-size: 22px;
+    font-weight: 700;
+
+}
+
+.menu-head2 {
+    color: #076ec2;
+    font-weight: 500;
+
+}
+
+.menu {
+    margin: 10px;
+    text-align: center;
+    color: #ff2965;
+}
+
+.menu-sum {
+    color: #002E5A;
+}
+
+.menu-sum::after {
+    content: ' Every Mood';
+    color: #F45C87;
+}
+
+.dynamic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dynamic img {
+    height: 50px;
+    width: 50px;
+}
+
+.menu-line1 {
+    width: 100px;
+    height: 5px;
+    background-color: #F45C87;
+    border-radius: 100% 0 0 100%;
+}
+
+.menu-line2 {
+    width: 100px;
+    height: 5px;
+    background-color: #F45C87;
+    border-radius: 0 100% 100% 0;
+}
+
+.menu-line1-2 {
+    width: 100px;
+    height: 5px;
+    background-color: #033f70;
+    border-radius: 100% 0 0 100%;
+}
+
+.menu-line2-2 {
+    width: 100px;
+    height: 5px;
+    background-color: #033f70;
+    border-radius: 0 100% 100% 0;
+}
+
+.menu-line1-3 {
+    width: 100px;
+    height: 5px;
+    background-color: #ffca29;
+    border-radius: 100%;
+}
+
+.menu-line1-3-1 {
+    width: 120px;
+    height: 5px;
+    background-color: #ffca29;
+    border-radius: 100%;
+}
+
+.menu-link {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    list-style: none;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.menu-link a {
+    font-family: "DM Serif Display", serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: #002E5A;
+    font-size: 16px;
+    font-size: 17px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-bottom: 5px solid #f3d37100;
+    border: 1px solid #002E5A;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.menu-link a:hover {
+    background-color: #002E5A;
+    color: #fff;
+    box-shadow: 0px 0px 30px #033f70;
+
+}
+
+
+
+.menu-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.box {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.245);
+    transition: all 0.3s ease-out;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0px 20px 13px #0000003e;
+}
+
+.box1 {
+    background-image: url(assets/apptizers.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box2 {
+    background-image: url(assets/main_course.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box3 {
+    background-image: url(assets/desserts.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box4 {
+    background-image: url(assets/beverages.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box-menu {
+    display: grid;
+    grid-template-rows: 60% 40%;
+    gap: 10px;
+    width: 100%;
+    aspect-ratio: 5 / 2
+}
+
+.mb1 {
+    background-color: #f0f0f000;
+    border-radius: 10px;
+    min-height: 80px;
+    visibility: hidden;
+}
+
+.mb2 {
+    background-color: #ffffff38;
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    min-height: 98px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #ffffff6e;
+    border-left: 2px solid #ffffff6e;
+    border-right: 2px solid #4545456e;
+    border-bottom: 2px solid #4545456e;
+}
+
+
+.inner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+.inner-box h3 {
+    font-family: "DM Serif Display", serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #002E5A;
+}
+
+.inner-box h4 {
+    font-family: "DM Serif Display", serif;
+    font-size: 18px;
+    font-weight: 100;
+    color: #002E5A;
+}
+
+.menu-btn {
+    color: #fff;
+    border: none;
+    background-color: #F45C87;
+    transition: all 0.3s ease;
+}
+
+.menu-btn::after {
+    content: " →";
+}
+
+.menu-btn:hover {
+    box-shadow: 0px 0px 50px #F45C87;
+}
+
+.main-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 80px;
+    padding-bottom: 90px;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.leaf-elements {
+    height: 400px;
+    position: absolute;
+    left: -1%;
+    top: 320%;
+}
+
+.sparks {
+    height: 250px;
+    position: absolute;
+    right: 5%;
+    top: 290%;
+    filter: drop-shadow(0 0 15px #ffdf3f);
+}
+
+
+
+.gallery-head2 {
+    color: #F45C87;
+    font-size: 40px;
+}
+
+.gallery-head2::before {
+    content: "Moments at ";
+    color: #033f70;
+}
+
+.carousel {
+    width: 90%;
+    overflow: hidden;
+    mask-image: linear-gradient(to right, transparent, #fff 10% 90%, transparent);
+}
+
+.carousel:hover .item img {
+    filter: grayscale(0.8);
+}
+
+.carousel:hover .track {
+    animation-play-state: paused;
+}
+
+.item:hover img {
+    filter: grayscale(0) !important;
+    transform: scale(1.06);
+}
+
+.track {
+    display: flex;
+    width: max-content;
+    will-change: transform;
+    animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.item {
+    width: 300px;
+    height: 250px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    margin-right: 15px;
+    overflow: hidden;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: all 0.2s ease-in;
+
+}
+
+.main-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: -webkit-linear-gradient(190deg,
+            #00000000,
+            #00000000,
+            #ffffff37,
+            #ffffff,
+            #ffffff,
+            #fff), url(assets/Restaruant\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 90px;
+}
+
+.a2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.reserve-box1 {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    gap: 20px;
+}
+
+
+.reserve-head1 {
+    color: #033f70;
+}
+
+.reserve-head2 {
+    color: #FF7796;
+    font-size: 40px;
+}
+
+.reserve-head2::before {
+    content: "Book ";
+    color: #076ec2;
+}
+
+.reserve-para {
+    font-size: 20px;
+    font-weight: 100;
+    color: #076ec2;
+
+}
+
+.dynamic2 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.dy-extra,
+.dynamic2 img {
+    height: 50px;
+    width: 50px;
+}
+
+
+
+
+.reserve-item {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+}
+
+.items-img2 {
+    height: 60px;
+
+}
+
+.items-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #033f70;
+}
+
+.items-2 h3 {
+    font-weight: 600;
+}
+
+.items-2 p {
+    font-weight: 100;
+}
+
+.reserve-box-extra {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.form {
+
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    padding: 14px;
+    background: #ffffff38;
+    backdrop-filter: blur(15px);
+    border-radius: 24px;
+    width: 450px;
+    height: 250px;
+
+    border-top: 2px solid #ffffff6e;
+    border-left: 2px solid #ffffff6e;
+    border-right: 2px solid #4545456e;
+    border-bottom: 2px solid #4545456e;
+
+}
+
+
+
+.fbox1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date1 {
+    background-color: transparent;
+
+}
+
+.date-input {
+    padding: 14px 14px 14px 16px;
+    border: 2px solid #0000001f;
+    width: 95%;
+    background-image: url(assets/date.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    font-family: "DM Serif Display", serif;
+    color: #002E5A;
+    cursor: pointer;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 12px;
+
+}
+
+.date-input::placeholder {
+    color: #002E5A;
+    opacity: 0.7;
+}
+
+.date-input:focus {
+    border-color: #002E5A;
+    background-image: none;
+}
+
+.date-input::-webkit-calender-picker-indicator {
+    opacity: 0;
+    color: red;
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+
+.time1 {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.time-input {
+    padding: 14px 14px 14px 16px;
+    border: 2px solid #0000001f;
+    width: 100%;
+    background-image: url(assets/clock.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    font-family: "DM Serif Display", serif;
+    color: #002E5A;
+    cursor: pointer;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 12px;
+
+}
+
+.time-input::placeholder {
+    color: #002E5A;
+    opacity: 0.7;
+}
+
+.time-input:focus {
+    border-color: #002E5A;
+    background-image: none;
+
+}
+
+.time-input::-webkit-calender-picker-indicator {
+    opacity: 0;
+    color: red;
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.fbox2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guests-input {
+    width: 100%;
+    padding: 14px 48px 14px 16px;
+    border: 2px solid rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    background: #ffffff url("assets/group2.svg") no-repeat right 14px center / 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #1e3a5f;
+    cursor: pointer;
+    outline: none;
+    box-sizing: border-box;
+    appearance: none;
+}
+
+.guests-input:focus {
+    border-color: #1e3a5f;
+}
+
+.fbox3 {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reserve-btn {
+    height: 90%;
+    width: 95%;
+    background-color: #F45C87;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+.reserve-btn:hover {
+    box-shadow: 0px 0px 40px #F45C87;
+}
+
+.reserve-btn:active {
+    background-color: #fff;
+    color: #F45C87;
+}
+
+.footer {
+    background-color: #002E5A;
+}
+
+.footer-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 364px;
+    gap: 14px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-items1 {
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon-img {
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #076ec2;
+
+}
+
+.logo2 {
+    height: 100px;
+
+}
+
+.footer-para {
+    font-family: "DM Serif Display", serif;
+    font-weight: 500;
+    color: #fff;
+}
+
+.logo2:hover {
+    cursor: pointer;
+}
+
+.ico:hover {
+    background: linear-gradient(45deg, #ff9422, #ff591d, #ff2041, #ee1b70, #ff00ae);
+    box-shadow: 0 0 10px 5px #ff2041;
+
+}
+
+.ico1:hover {
+    background-color: #0866FF;
+    box-shadow: 0 0 10px 5px #0866FF;
+}
+
+.ico2:hover {
+    background-color: #FF0033;
+    box-shadow: 0 0 10px 5px #FF0033;
+
+}
+
+.ico3:hover {
+    background-color: #000;
+    box-shadow: 0 0 10px 5px #000;
+
+}
+
+
+.footer-items2 {
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    gap: 25px;
+
+
+}
+
+.footer-items2 h3 {
+    color: #ffca29;
+    text-decoration: underline #ffca29;
+}
+
+.foot-link {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-link a {
+    text-decoration: none;
+    color: #c7c7c7;
+}
+
+.foot-link a:hover {
+    color: #fff;
+    text-shadow: 0 0 15px #fff;
+}
+
+.footer-items3 {
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+
+.hours-box {
+    padding: 28px 32px;
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+    height: 280px;
+}
+
+.hours-title {
+    color: #f5c542;
+    margin: 0 0 20px;
+    font-size: 20px;
+    text-decoration: underline #f5c542;
+}
+
+.hours-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 10px 0;
+    font-size: 16px;
+
+    color: #fff;
+}
+
+
+@media (max-width:1100px) {
+    .home {
+        font-size: 40px;
+    }
+
+    .home1 {
+        font-size: 60px;
+    }
+
+    .home2 {
+        font-size: 60px;
+    }
+
+    .main-1 {
+        background-image: -webkit-linear-gradient(200deg,
+                #00000000,
+                #00000000,
+                #00000000,
+                #ffffff,
+                #fff,
+                #fff), url(assets/Restaruant\ 3.jpg);
+
+
+    }
+
+    .blue {
+        width: 250px;
+        z-index: 0;
+        left: -5%;
+    }
+
+    .yellow {
+        width: 350px;
+        top: 49%;
+    }
+
+    .btn {
+        font-size: 15px;
+        padding: 15px;
+    }
+
+    .head-sum {
+        font-size: 16px;
+    }
+
+    .svg-icon {
+        height: 40px;
+        width: 40px;
+    }
+
+    .menu-head {
+        font-size: 18px;
+    }
+
+    .menu-head2 {
+        text-align: center
+    }
+
+    .b {
+        padding: 60px;
+        padding-bottom: 50px;
+    }
+
+    .wise {
+        width: 150px;
+    }
+
+    .about {
+        font-size: 20px;
+    }
+
+    .about1 {
+        font-size: 40px;
+    }
+
+    .about2 {
+        font-size: 40px;
+
+    }
+
+    .about2::before {
+        font-size: 40px;
+
+    }
+
+    .menu-line1-3-1 {
+        width: 80px;
+        height: 4px;
+    }
+
+    .about3 {
+        font-size: 16px;
+    }
+
+    .items-img {
+        width: 50px;
+    }
+
+    .items h3 {
+        font-size: 16px;
+    }
+
+    .items p {
+        font-size: 15px;
+    }
+
+    .orangeg {
+        width: 130px;
+        top: 200%;
+    }
+
+    .grape {
+        width: 130px;
+    }
+
+    .jelly {
+        width: 150px;
+        top: 215%;
+    }
+
+    .menu-btn {
+        font-size: 16px;
+        padding: 20px;
+
+    }
+
+    .sparks {
+        height: 200px;
+        top: 380%;
+    }
+
+    .leaf-elements {
+        top: 410%;
+        /* height: ; */
+
+    }
+
+    .reserve-box1 {
+        gap: 10px;
+    }
+
+    .items-img2 {
+        height: 40px;
+
+    }
+
+    .logo2 {
+        height: 80px;
+    }
+
+    .nav-link {
+        gap: 16px;
+    }
+
+    .search {
+        width: 250px;
+        font-size: 15px;
+
+    }
+}
+
+@media (max-width:1024px) {
+    .navbar {
+        justify-content: space-evenly;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .yellow {
+        top: 66%;
+    }
+
+    .wise {
+        top: 120%;
+    }
+
+    .about3 {
+        text-shadow: 0 0 5px #fff;
+    }
+
+    .orangeg {
+        top: 215%;
+    }
+
+    .grape {
+        top: 230%;
+    }
+
+    .jelly {
+        top: 230%;
+    }
+
+    .sparks {
+        top: 395%;
+    }
+
+    .leaf-elements {
+        top: 425%;
+    }
+
+    .track {
+        animation: scroll 16s linear infinite;
+    }
+
+    .form {
+        height: 300px;
+    }
+
+    .reserve-btn {}
+}
+
+@media(max-width:900px) {
+    .navbar {
+        padding-right: 70px;
+        justify-content: space-between;
+    }
+
+    .nav-link {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background-color: #ffffffdb;
+        width: 40vw;
+        height: 70vh;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        padding-left: 5%;
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+        transition: all 0.2s;
+    }
+
+    .nav-open {
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+    }
+
+    .open-close {
+        display: block;
+        z-index: 1001;
+    }
+
+    .close {
+        display: none;
+        
+    }
+
+    .menu-opened .open {
+        display: none;
+    }
+
+    .menu-opened .close {
+        display: block;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .blue,
+    .yellow,
+    .orangeg,
+    .grape,
+    .jelly,
+    .wise,
+    .sparks,
+    .leaf-elements {
+        display: none;
+    }
+}
+
+@media(max-width:768px) {
+    .main-1 {
+        padding-left: 60px;
+        padding-right: 60px;
+        background-image: -webkit-linear-gradient(200deg,
+                #00000000,
+                #00000000,
+                #ffffff74,
+                #ffffff,
+                #ffffff), url(assets/Restaruant\ 3.jpg);
+    }
+    .nav-link a {
+        padding: 0px;
+    }
+
+    .main-3 {
+        background-image: -webkit-linear-gradient(-90deg,
+                #fff,
+                #ffffffa3,
+                #ffffffa3,
+                #fff), url(assets/Restaruant\ 1.jpg);
+
+    }
+
+    .b {
+        width: 100%;
+    }
+
+    .a {
+        display: none;
+    }
+
+    .main-6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-image: -webkit-linear-gradient(90deg,
+
+                #00000000,
+                #00000000,
+                #ffffff37,
+                #ffffff,
+                #ffffff,
+                #F4F4F4), url(assets/Restaruant\ 2.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 40px;
+        gap: 30px;
+    }
+
+    .reserve-box1 {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .reserve-box-extra {
+        justify-content: center;
+    }
+
+    .reserve-head1 {
+        font-size: 20px;
+    }
+
+    .reserve-head2 {
+        font-size: 30px;
+    }
+
+    .dynamic2 img {
+        height: 30px;
+    }
+
+    .reserve-para {
+        font-size: 16px;
+    }
+
+    .form {
+        height: 250px;
+    }
+
+    .footer-items1 {
+        padding: 25px;
+    }
+    .hours-row{
+        font-size: 15px;
+    }
+}
+
+
+@media(max-width:500px) {
+    .nav-link {
+        width: 55vw;
+    }
+}
