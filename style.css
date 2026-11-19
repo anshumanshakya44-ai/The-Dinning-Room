@@ -184,7 +184,6 @@
 .btn2 {
     color: #F45C87;
     border: 4px solid #F45C87;
-    backdrop-filter: blur(15px);
     background-color: rgba(255, 255, 255, 0.158);
     transition: all 0.3s ease;
 
@@ -1483,7 +1482,7 @@
         height: 300px;
     }
 
-    .reserve-btn {}
+    
 }
 
 @media(max-width:900px) {
